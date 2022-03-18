@@ -1,9 +1,12 @@
+import UseMemo from "./hook/UseMemo";
+import UseReducer from "./hook/UseReducer";
 import Register from "./Register";
 
 function App() {
   return (
     <div className="App">
-      <Register />
+      <UseReducer />
+      {/* <UseMemo /> */}
     </div>
   );
 }
